@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Buggy Block",
+    "version": "1.0",
+    "description": "Blocks YouTube Ads",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_title": "Buggy Block",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
