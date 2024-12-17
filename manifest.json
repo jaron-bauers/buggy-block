@@ -9,7 +9,9 @@
     ],
     "action": {
       "default_title": "Buggy Block",
-      "default_icon": "icon.png"
+      "default_icon": {
+        "48": "icon.png" 
+      }
     },
     "background": {
       "service_worker": "background.js"
