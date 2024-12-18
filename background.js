@@ -13,13 +13,14 @@ async function main() {
 
     // Click "Block ad"
     await sleep(650);
-    clickIframeEements('.mUIrbf-LgbsSe', '2');
+    clickIframeElements('.mUIrbf-LgbsSe', '2');
 
     // Click "Continue"
     await sleep(500);
     clickIframeElements('.WvipBf-LgbsSe-LoDsGd', '3');
 
     // Click exit X
+    await sleep(250);
     clickIframeElements('.VfPpkd-Bz112c-LgbsSe', '4');
 
     function clickIframeElements(buttonClass) {
